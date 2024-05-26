@@ -1,0 +1,19 @@
+{
+    "files": {
+        "ignore": ["*.js"]
+    },
+    "formatter": {
+        "enabled": true,
+        "indentStyle": "space",
+        "indentWidth": 4,
+        "lineWidth": 90
+    },
+    "javascript": {
+        "formatter": {
+            "quoteStyle": "single",
+            "trailingComma": "all",
+            "bracketSpacing": true,
+            "arrowParentheses": "asNeeded"
+        }
+    }
+}
