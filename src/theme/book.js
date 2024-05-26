@@ -116,6 +116,9 @@ function playground_text(playground, hidden = true) {
         } else if(classes.contains("edition2021")) {
             edition = "2021";
         }
+        if (!text.match(/\bfn\s+main\b/)) {
+            text = `fn main() {\n${text}\n}\n`;
+        }
         var params = {
             version: "stable",
             optimize: "0",
